@@ -1,0 +1,104 @@
+body{
+    background-color: rgba(230, 238, 216, 0.811);
+    border-radius: 0;
+}
+*{
+    padding:0px;
+    margin:0px;
+}
+.nav{
+    background-color: black;
+    height:50px;
+    display:flex;
+    margin-top: 0px;
+    align-items: center;
+    color:white;
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    padding:6px ;
+}
+li{
+    padding:8px;
+}
+.logo img{
+    width:50px;
+    /* mix-blend-mode: multiply; */
+}
+.name{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color:rgb(17 253 146);
+}
+.container{
+    height:77vh;
+    width:70%;
+    margin:20px auto;
+    background-color: black;
+    background-image: url("https://images.unsplash.com/photo-1501612780327-45045538702b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    /* opacity: 1.8; */
+}
+.bottom{
+    border :2px solid black;
+    background-color: black;
+    height:10vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+    
+}
+.bar{
+    width:70vw;
+    border:2px solid blue;
+    background-color: blue;;
+    cursor: pointer;
+
+}
+.icon{
+    color:white;
+    font-size: 1.8rem;
+    margin-top: 15px;
+    cursor:pointer;
+}
+.songitem{
+    /* background-color: rgb(53, 47, 47); */
+    height:10vh;
+    width:30%;
+    /* border:4px solid green; */
+    /* text-align: center; */
+    align-items: center;
+    display: flex;
+    padding:0px 20px;
+    justify-content:space-between;
+    margin: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+.songitem img{
+    border:2px solid white;
+    width:70px;
+}
+.musicinfo{
+    position: absolute;
+    left:30vh;
+    display:flex;
+    align-items: center;
+    /* border:2px solid red; */
+    margin-top:20px;
+    width:20vw;
+    justify-content: space-around;
+}
+.musicinfo img{
+    opacity:0;
+    transition: .4s ease-in ;
+    width:80px;
+    margin-top:0px;
+    /* border:2px solid green; */
+}
